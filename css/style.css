@@ -33,6 +33,18 @@ label,input{
     display: block;
 }
 
+/* ------------ header ---------------- */
+
+header{
+    text-align: center;
+}
+
+header > h2{
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
 /* -------- On cache nos btns radio ----------- */
 
 input[type="checkbox"]{
