@@ -74,10 +74,30 @@ input[type="checkbox"]{
     padding: 10px 9px;
 }
 
-.input__field > input::placeholder{
+.input__field  input::placeholder{
     font-family: var(--font-label);
     color: #919396;
     font-size: 1.1em;
+}
+
+/* ------------Password ---------------- */
+
+.password__input{
+    display: flex;
+    align-items: center;
+    border: 1px solid #bbb8b87a;
+    box-sizing: border-box;
+    padding: 10px 9px;
+}
+
+.password__input > input{
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+.password__input > i{
+    color: #bbb8b8c0;
 }
 
 /* --------------- Style des selection du contrat ---------------------- */
@@ -186,4 +206,5 @@ input[type="submit"]{
     border: none;
     border-radius: 3px;
     font-size: .9em;
+    cursor: pointer;
 }
