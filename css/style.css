@@ -81,10 +81,6 @@ input[type="checkbox"]{
     font-size: 1.1em;
 }
 
-/* .input__field > input:invalid{
-    border:1px solid #e9b60e;
-} */
-
 /* ------------Password ---------------- */
 
 .password__input{
@@ -215,8 +211,7 @@ input[type="submit"]{
     background-color: #3498db;
     outline: none;
     border: none;
-    border-radius: 3px;
-    font-size: .9em;
+    font-size: 1.2em;
     cursor: pointer;
 }
 
